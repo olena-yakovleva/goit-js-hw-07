@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    width: 534px;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    background: #f6f6fe;
+}
+input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    outline: none;
+    text-align: center;
+
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-create {
+    background: #4e75ff;
+}
+.button-create:hover {
+    background: #6c8cff;
+}
+
+.button-destroy {
+    background: #ff4e4e;
+}
+.button-destroy:hover {
+    background: #ff7070;;
+}
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    /* height: 134px; */
+    background: #f6f6fe;
+}
